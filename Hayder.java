@@ -82,6 +82,12 @@ public void setId(int id) {
     this.id = id;
 }
 
-
+ public Hayder(String cin, String nom, String prenom, int tel, int id) {
+        this.cin = cin;
+        this.nom = nom;
+        this.prenom = prenom;
+        this.tel = tel;
+        this.id = id;
+    }
 
 }
