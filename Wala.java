@@ -3,6 +3,7 @@ public class Wala {
     private int id;
     private String nom;
     private String prenom;
+    private String adresse;
   // Constructeurs
 
     public Wala() {
