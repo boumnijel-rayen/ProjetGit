@@ -7,4 +7,7 @@ public class Aziz {
     public Aziz (String nom){
         System.out.println ("Bonjour "+nom+", je suis Aziz");
     }
+    public Aziz (String nom, String nom2){
+        System.out.println ("Bonjour "+nom+", je suis Aziz, je t'intorduit à mon ami "+nom2);
+    }
 }
