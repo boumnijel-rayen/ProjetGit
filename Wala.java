@@ -38,6 +38,13 @@ public class Wala {
     public void setPrenom(String prenom) {
         this.prenom = prenom;
     }
+        public int getAdresse() {
+        return adresse;
+    }
+
+    public void setAdresse(int adresse) {
+        this.adresse = adresse;
+    }
 
 
 }
