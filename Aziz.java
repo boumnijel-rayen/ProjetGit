@@ -4,4 +4,7 @@ public class Aziz {
     public Aziz (){
         System.out.println ("Bonjour, je suis Aziz");
     }
+    public Aziz (String nom){
+        System.out.println ("Bonjour "+nom+", je suis Aziz");
+    }
 }
