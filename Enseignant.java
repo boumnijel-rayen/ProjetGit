@@ -1,7 +1,7 @@
 public class Enseignant {
     private int id;
     private String nom;
-    private String prenom;
+
 
     // Constructeurs
     public Enseignant() {
@@ -10,7 +10,6 @@ public class Enseignant {
     public Enseignant(int id, String nom, String prenom) {
         this.id = id;
         this.nom = nom;
-        this.prenom = prenom;
     }
 
     // Méthodes d'accès en lecture et écriture
@@ -30,13 +29,7 @@ public class Enseignant {
         this.nom = nom;
     }
 
-    public String getPrenom() {
-        return prenom;
-    }
 
-    public void setPrenom(String prenom) {
-        this.prenom = prenom;
-    }
 
     @Override
     public boolean equals(Object o) {
@@ -51,7 +44,7 @@ public class Enseignant {
         return "Enseignant{" +
                 "id=" + id +
                 ", nom='" + nom + '\'' +
-                ", prenom='" + prenom + '\'' +
+                
                 '}';}
 
     @Override
