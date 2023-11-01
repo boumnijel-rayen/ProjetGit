@@ -14,6 +14,13 @@ public class rayen{
     {
         this.name = name;
     }
+    public rayen(String name, int age, String adress, String phone){
+        this.name = name;
+        this.age = age;
+        this.adress = adress;
+        this.phone = phone;
+    }
+
     
     public rayen(){
         System.out.println("Hello World!");
