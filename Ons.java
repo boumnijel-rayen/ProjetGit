@@ -13,6 +13,11 @@ public class Hello {
 
     public void setAge (int age) {
         this.age = age;
+    public Hello (String name, int age, String adresse)
+    {
+       this.name = name;
+       this.age = age;
+       this.adresse = adresse;
     }
 
     public void display () {
