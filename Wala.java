@@ -48,7 +48,7 @@ public class Wala {
     }
      @Override
     public String toString() {
-        return "Leith{" +
+        return "Binomti{" +
                 "id=" + id +
                 ", nom='" + nom + '\'' +
                 ", prenom='" + prenom + '\'' +
