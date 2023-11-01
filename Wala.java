@@ -49,6 +49,6 @@ public class Wala {
    @Override
     public boolean equals(String prenom) {
         
-        return true;
+        return false;
     }
 }
