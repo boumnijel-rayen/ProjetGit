@@ -35,7 +35,7 @@ public class Wala {
     public String getPrenom() {
         return prenom;
     }
-
+ 
     public void setPrenom(String prenom) {
         this.prenom = prenom;
     }
@@ -54,5 +54,9 @@ public class Wala {
                 ", prenom='" + prenom + '\'' +
                 '}';}
 
-
+   @Override
+    public boolean equals(String prenom) {
+        
+        return true;
+    }
 }
