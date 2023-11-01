@@ -48,7 +48,7 @@ public class Wala {
     }
      @Override
     public String toString() {
-        return "Wala{" +
+        return "Hayder{" +
                 "id=" + id +
                 ", nom='" + nom + '\'' +
                 ", prenom='" + prenom + '\'' +
