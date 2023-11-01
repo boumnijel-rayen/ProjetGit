@@ -3,7 +3,7 @@ public class Hello {
     private int age;
     private String adresse;
 
-    public Hello {
+    public Hello () {
 
     }
 
