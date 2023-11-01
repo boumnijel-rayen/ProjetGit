@@ -7,6 +7,13 @@ public class Hello {
 
     }
 
+    public Hello (String name, int age, String adresse)
+    {
+       this.name = name;
+       this.age = age;
+       this.adresse = adresse;
+    }
+
     public void display () {
         System.out.println("Name: " + name);
         System.out.println("Age: " + age);
