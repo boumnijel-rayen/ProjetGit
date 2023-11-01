@@ -4,6 +4,7 @@ public class Wala {
     private String nom;
     private String prenom;
     private String adresse;
+    private int age;
   // Constructeurs
 
     public Wala() {
@@ -45,6 +46,13 @@ public class Wala {
     public void setAdresse(int adresse) {
         this.adresse = adresse;
     }
+     @Override
+    public String toString() {
+        return "Hayder{" +
+                "id=" + id +
+                ", nom='" + nom + '\'' +
+                ", prenom='" + prenom + '\'' +
+                '}';}
 
    @Override
     public boolean equals(String prenom) {
