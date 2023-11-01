@@ -48,7 +48,7 @@ public class Wala {
     }
      @Override
     public String toString() {
-        return "Binomti{" +
+        return "bentuuuurkya{" +
                 "id=" + id +
                 ", nom='" + nom + '\'' +
                 ", prenom='" + prenom + '\'' +
