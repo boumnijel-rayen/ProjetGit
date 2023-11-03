@@ -82,7 +82,7 @@ public void setId(int id) {
     this.id = id;
 }
 
- public Hayder(String cin, String nom, String prenom, int tel, int id) {
+ public WalaAmiri(String cin, String nom, String prenom, int tel, int id) {
         this.cin = cin;
         this.nom = nom;
         this.prenom = prenom;
