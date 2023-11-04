@@ -6,6 +6,7 @@ public class Enseignant {
     // Constructeurs
     public Enseignant() {
         System.out.println("Je suis enseignant");
+        System.out.println("Bonjour, je suis Aziz BenTourkia");
     }
 
     public Enseignant(int id, String nom, String prenom) {
