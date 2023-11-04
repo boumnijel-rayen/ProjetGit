@@ -5,6 +5,7 @@ public class Enseignant {
 
     // Constructeurs
     public Enseignant() {
+        System.out.println("Je suis enseignant");
     }
 
     public Enseignant(int id, String nom, String prenom) {
